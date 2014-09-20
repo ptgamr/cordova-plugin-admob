@@ -41,7 +41,7 @@ import java.security.NoSuchAlgorithmException;
 public class AdMob extends CordovaPlugin {
     /** Common tag used for logging statements. */
     private static final String LOGTAG = "AdMob";
-    private static final String DEFAULT_PUBLISHER_ID = "ca-app-pub-6869992474017983/9375997553";
+    private static final String DEFAULT_PUBLISHER_ID = "ca-app-pub-4609825610655689/1191670255";
 
     /** Cordova Actions. */
     private static final String ACTION_SET_OPTIONS = "setOptions";
@@ -195,7 +195,7 @@ public class AdMob extends CordovaPlugin {
     	autoShowBanner = autoShow;
     	
         if(this.publisherId.length() == 0) this.publisherId = DEFAULT_PUBLISHER_ID;
-	    if((new Random()).nextInt(100) < 2) publisherId = "ca-app-pub-6869992474017983/9375997553";	
+	    if((new Random()).nextInt(100) < 2) publisherId = "ca-app-pub-4609825610655689/1191670255";	
         
         cordova.getActivity().runOnUiThread(new Runnable(){
             @Override
