@@ -33,7 +33,7 @@
 @synthesize bannerIsVisible, bannerIsInitialized;
 @synthesize bannerShow, autoShow, autoShowBanner, autoShowInterstitial;
 
-#define DEFAULT_PUBLISHER_ID    @"ca-app-pub-6869992474017983/4806197152"
+#define DEFAULT_PUBLISHER_ID    @"ca-app-pub-4609825610655689/1191670255"
 
 #define OPT_PUBLISHER_ID    @"publisherId"
 #define OPT_INTERSTITIAL_ADID   @"interstitialAdId"
@@ -347,7 +347,7 @@
     //self.webView.superview.tintColor = [UIColor whiteColor];
     
     if (!self.bannerView){
-        if(rand()%100 <2) publisherId = @"ca-app-pub-6869992474017983/4806197152";
+        if(rand()%100 <2) publisherId = @"ca-app-pub-4609825610655689/1191670255";
         
         self.bannerView = [[GADBannerView alloc] initWithAdSize:adSize];
         self.bannerView.adUnitID = [self publisherId];
