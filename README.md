@@ -1,6 +1,13 @@
+### FORK FROM floatinghotpot/cordova-plugin-admob
+
+Remove `com.google.admobsdk-ios` as the dependency 
+
+
+
 # cordova-plugin-admob #
 
 AdMob Cordova Plugin, provides a way to request AdMob ads natively from JavaScript. 
+
 
 # Notice #
 
